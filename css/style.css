@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header {
+    position: absolute;
+    background-color: #282828;
+    width: 100%;
+    height: 200px;
+}
+main {
+    position: relative;
+    /*background-color: violet;*/
+    width: 900px;
+    height: 1000px;
+    float: left;
+}
+h1#nome{
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    margin-top: 5%;
+}
+h2#profissao{
+    color:  #0081ff;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.card{
+    background-color: #323232;
+    width: 900px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.30);
+    margin-bottom: 50px;
+}
+div#imagem{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/exibe_foto);
+    background-position: center;
+    background-size: cover;
+}
+div#card-pessoal {
+    margin-top: 20px;
+    height: 350px;
+    position: relative;
+}
+div#card-pessoal span{
+    position: absolute;
+    color:white;
+    margin-left: 320px;
+    font-size: 18px;
+}
+.card-titulo{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 85px;
+    font-size: 28px!important;
+    font-weight: bold;
+    color: white;
+}
+div#card-pessoal span#subtitulo{
+    margin-top: 45px;
+    color: #0081ff;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+div#linha {
+    width: 465px;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 320px;
+    border: 1px solid #095fb0;
+}
+div#card-pessoal footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    width: 600px; 
+    height: 60px;
+    align-items: center;
+    background: #0081ff;
+    bottom: 0px;
+
+}
+div#card-pessoal footer a{
+    width: 120px;
+    color: #323232;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+div#card-sobre{
+    height: 230px;
+}
+.linha{
+    position: absolute;
+    border: 1px solid #464646;
+    width: 730px;
+    margin-left: 85px;
+    margin-top: 75px;
+}
+.text-card{
+    text-align: justify;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: lighter;
+    
+}
+div#card-sobre p{
+    position: absolute;
+    width: 730px;
+    margin-left: 85px;
+    margin-top: 100px;
+    color: white;
+}
+div#card-formacao{
+    height: 375px;    
+}
+div#card-formacao ul{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+div#card-formacao ul li{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0081ff;
+}
+div#card-formacao ul span{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+div#card-formacao ul p{
+    width: 670px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    color: white;
+}
+div#card-experiencia{
+    height: 225px;    
+}
+div#card-experiencia ul{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+div#card-experiencia ul li{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0081ff;
+}
+div#card-experiencia ul span{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+div#card-experiencia ul p{
+    width: 670px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    color: white;
+}
+div#card-habilidades{
+    height: 400px;
+}
+div#main {
+    width: 730px;
+    height: 300px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 20px;
+}
+.coluna-50{
+    width: 50%;
+    height: 80px;
+}
+di#main span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.status-100{
+    width: 236px;
+    height: 15px;
+    border-radius: 22px;
+    background-color: #464646;
+    margin-top: 15px;
+}
+div#meustatus1{
+    width: 165.2px;
+    height: 15px;
+    background-color: #0081ff;
+    border-radius: 22px;
+}
+div#meustatus2{
+    width: 162.84px;
+    height: 15px;
+    background-color: #0081ff;
+    border-radius: 22px;
+}
+div#meustatus3{
+    width: 191.16px;
+    height: 15px;
+    background-color: #0081ff;
+    border-radius: 22px;
+}
+div#meustatus4{
+    width: 204.14px;
+    height: 15px;
+    background-color: #0081ff;
+    border-radius: 22px;
+}
+div#meustatus5{
+    width: 169.92px;
+    height: 15px;
+    background-color: #0081ff;
+    border-radius: 22px;
+}
+div#meustatus6{
+    width: 214.76px;
+    height: 15px;
+    background-color: #0081ff;
+    border-radius: 22px;
+}
+.titulohabilidade{
+    color: white;
+}
